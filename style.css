@@ -39,7 +39,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
-    background: #f2f2f2;
+    background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -69,7 +69,7 @@ main {
 }
 
 .contact form input, .contact form textarea {
-    padding: 0.5rem;
+    padding: 0.7rem;
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -84,6 +84,7 @@ main {
     font-size: 1rem;
     border-radius: 4px;
     cursor: pointer;
+    align-self: flex-start;
 }
 
 .contact form button:hover {
@@ -92,14 +93,32 @@ main {
 
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 1rem;
     background-color: #213635;
     color: #f2f2f2;
 }
-footer a {
+
+footer .container {
+    background-color: #213635;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer h2 {
     color: #f2f2f2;
+}
+
+footer p, footer a {
+    color: #f2f2f2;
+}
+
+footer a {
     text-decoration: none;
 }
+
 footer a:hover {
     text-decoration: underline;
 }
+
+
