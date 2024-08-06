@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url('https://i.pinimg.com/564x/6b/de/ea/6bdeeac5b8a0f29245178f69875a151d.jpg') no-repeat center center;
+    background: url('https://i.pinimg.com/originals/64/8c/d2/648cd2f8a6a7d67a9405d4b8f0b8e0e3.jpg') no-repeat center center;
     background-size: cover;
     color: #f2f2f2;
     text-align: center;
@@ -120,5 +120,3 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
-
